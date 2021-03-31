@@ -20,8 +20,9 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-- task: PublishBuildArtifacts@1
+    
+- task: CopyPublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    Contents: '**/*.war'
     ArtifactName: 'drop'
-    publishLocation: 'Container'
+    ArtifactType: 'Container'
