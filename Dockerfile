@@ -1,7 +1,7 @@
 FROM tomcat
 
  
-COPY target/our-web-app.war /usr/local/tomcat/webapps/.
+COPY target/our-web-app.war /usr/local/tomcat/webapps/
 #On which port it will run
 
 
