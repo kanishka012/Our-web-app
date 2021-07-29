@@ -3,7 +3,7 @@ FROM tomcat
 
 
  
-ADD target/docker-pipeline.war /usr/local/tomcat/webapps/.
+ADD target/our-web-app.war /usr/local/tomcat/webapps/.
 
 
 
