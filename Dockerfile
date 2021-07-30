@@ -7,7 +7,7 @@
 FROM tomcat:8.5-alpine
 
  
-MAINTAINER Priya Chaudhary
+MAINTAINER Kanishka
 
  
 COPY tomcat-users.xml /usr/local/tomcat/conf/
