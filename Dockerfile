@@ -1,9 +1,3 @@
-
-//FROM tomcat
-
-
- 
-//ADD target/our-web-app.war /usr/local/tomcat/webapps/.
 FROM tomcat:8.5-alpine
 
  
